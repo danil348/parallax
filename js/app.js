@@ -73,7 +73,7 @@ window.onload = function() {
 					namespace: ['index']
 				},
 				once({next}){
-					sqr(next.container)
+					//sqr(next.container)
 					letterAnim()
 				},
 				async leave(){
@@ -83,7 +83,7 @@ window.onload = function() {
 					done();
 				},
 				enter({next}){
-					sqr(next.container)
+					//sqr(next.container)
 					letterAnim()
 				}
 			}
